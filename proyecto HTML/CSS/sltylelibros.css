@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9090f1;
+    color: #333;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+header img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Navigation Styles */
+nav.menu-principal {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav.menu-principal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav.menu-principal ul li {
+    display: inline;
+}
+
+nav.menu-principal ul li a {
+    display: inline-block;
+    color: rgb(103, 190, 86);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+nav.menu-principal ul li a:hover {
+    background-color: #575757;
+}
+
+/* Content Styles */
+div {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(161, 159, 127);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+    color: #5a5a5a;
+}
+
+h3, h4, h5, h6, h7, h8, h9, h10 {
+    margin-top: 30px;
+}
+
+/* Specific Content Styles */
+h3, h4, h5, h6, h7, h8, h9, h10 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #5a5a5a;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+div p img {
+    float: right;
+    margin: 10px 0 10px 20px;
+    width: 30%;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: rgb(112, 18, 18);
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #f4f4f9;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    nav.menu-principal ul li a {
+        padding: 10px 15px;
+        font-size: 1em;
+    }
+
+    div p img {
+        width: 100%;
+        float: none;
+        margin: 20px 0;
+    }
+
+    div {
+        padding: 15px;
+        margin: 10px;
+    }
+}

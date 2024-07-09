@@ -1,0 +1,10 @@
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.left-image {
+    margin-right: 20px;
+    width: 180px; /* Adjust as necessary */
+}
